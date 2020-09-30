@@ -13,6 +13,6 @@ public class MoodAnalyserTest {
 	public void TestMoodAnalysis() {
 		MoodAnalyserMain moodAnalyser = new MoodAnalyserMain(null);
 		String mood = moodAnalyser.analyseMood();
-		Assert.assertEquals("NULL", mood);
+		Assert.assertEquals("HAPPY", mood);
 	}
 }
