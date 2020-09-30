@@ -20,7 +20,7 @@ public class MoodAnalyserMain {
 		if(message.length() == 0)
 			throw new MoodAnalyserException(MoodAnalyserException.ExceptionType.ENTERED_EMPTY, "Please Enter Some Message");
 		
-			if (message.contains("Happy"))
+			if (message.contains("sad"))
 				return "SAD";
 			else
 				return "HAPPY";
