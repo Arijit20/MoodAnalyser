@@ -1,7 +1,16 @@
 package com.cg;
 
 public class MoodAnalyserMain {
-	public String analyseMood(String message) {
+	private String message;
+	
+	public MoodAnalyserMain() {
+	}
+	
+	public MoodAnalyserMain(String message) {
+		this.message = message;
+	}
+	
+	public String analyseMood() {
 			if (message.contains("sad"))
 				return "SAD";
 			else
